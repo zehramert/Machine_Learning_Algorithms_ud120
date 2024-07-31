@@ -1,7 +1,5 @@
 
-
-# Machine_Learning_Course_ud120_Projects
-# Intro to Machine Learning - Udacity Course Projects
+# Intro to Machine Learning - Course Projects
 
 
 This repository contains solutions for the projects in Udacity's Intro to Machine Learning course. The course covers a wide range of machine learning topics, and each project focuses on applying techniques and algorithms to solve specific problems. Below is a summary of each project.
@@ -32,14 +30,28 @@ This repository contains solutions for the projects in Udacity's Intro to Machin
 * SVM
 I implemented each classification algorithm and compared their accuracy and visualized the decision boundaries for all classifiers using the prettyPicture function
 - Key Concepts: Boosting, ensemble learning, weighted classification.
+  
+  * AdaBoost Algorithm
+    
+  <img src="github_img/adaboost_decision_boundary.png" alt="AdaBoost Algorithm" width="320">
+
+
+  * RandomForest Algorithm
+    
+  <img src="github_img/random_forest_decision_boundary.png" alt="RandomForest Algorithm" width="320">
+
+
+  * SVM
+    
+  <img src="github_img/svm_decision_boundary.png" alt="SVM Algorithm" width="320">
+
 
 
 ### Dataset&Questions
 - Description: Focuses on exploring and preparing datasets for machine learning tasks.
 - Key Concepts: Data cleaning, feature engineering, dataset splitting.
 - Output:
-
-
+<img src="github_img/dataset_output.png" alt="" width="420">
 
 
 
@@ -47,11 +59,18 @@ I implemented each classification algorithm and compared their accuracy and visu
 ### Regression
 - Description: Applies regression techniques to determine relationship between a target and features.
 - Key Concepts: Linear regression, polynomial regression, evaluation metrics.
+- Output:
 
+  <img src="github_img/reg2.png" alt="" width="320">
 
 ### Outlier Detection
 - Description: Implements methods to detect and handle outliers in data.
 - Key Concepts: Statistical methods, distance-based methods, outlier removal.
+- Output:
+
+  
+  <img src="github_img/outlierb.png" alt="Before Removal" width="320">
+  <img src="github_img/outliera.png" alt="After Removal" width="320">
 
 
 ### Clustering
@@ -78,9 +97,9 @@ I implemented each classification algorithm and compared their accuracy and visu
 - Description: Implements PCA for dimensionality reduction and visualization.
 In this mini project, I used PCA for feature extraction and dimensionality reduction, followed by training an SVM classifier for face recognition.
 - Key Concepts: Eigenvectors, eigenvalues, variance explanation.
-
-
-
+- Output:
+<img src="github_img/pca.png" alt="" width="520">
+<img src="github_img/pca_.png" alt="" width="420">
 
 ### Validation
 - Description: Focuses on techniques for validating model performance.
@@ -142,7 +161,7 @@ The final project of the Udacity Intro to Machine Learning course involves analy
 - Results and Conclusion:
 * Model Performance: The performance of the final model is reported, highlighting key metrics and the overall effectiveness in identifying POIs.
 
-
+<img src="github_img/final.png" alt="" width="420">
 
 
 
