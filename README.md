@@ -124,42 +124,42 @@ The final project of the Udacity Intro to Machine Learning course involves analy
 
 
 - Dataset Overview:
-* Source: The dataset contains financial and email data of Enron employees.
-* Structure: Each record in the dataset represents an employee with features such as salary, bonus, and email communication metrics. The target variable indicates whether the employee is a POI (Person of Interest).
+  * Source: The dataset contains financial and email data of Enron employees.
+  * Structure: Each record in the dataset represents an employee with features such as salary, bonus, and email communication metrics. The target variable indicates whether the employee is a POI (Person of Interest).
 
 
 - Data Exploration:
-* Loading the Dataset: The dataset is loaded using Python's pickle module.
-* Initial Exploration: Basic statistics are computed to understand the distribution of data, missing values, and anomalies.
+  * Loading the Dataset: The dataset is loaded using Python's pickle module.
+  * Initial Exploration: Basic statistics are computed to understand the distribution of data, missing values, and anomalies.
 
 
 - Feature Engineering:
-* Feature Selection: Relevant features are selected based on domain knowledge and statistical analysis. Features that are highly correlated with the target variable (POI) are prioritized.
-* New Feature Creation: New features can be created from existing ones, such as the ratio of emails sent to POIs to the total number of emails sent.
+  * Feature Selection: Relevant features are selected based on domain knowledge and statistical analysis. Features that are highly correlated with the target variable (POI) are prioritized.
+  * New Feature Creation: New features can be created from existing ones, such as the ratio of emails sent to POIs to the total number of emails sent.
 
 
 - Outlier Detection and Handling:
-* Identifying Outliers: Outliers are identified using error calculation.
-* Removing Outliers: Records that significantly deviate from the norm and are likely to skew the model's performance are removed.
+  * Identifying Outliers: Outliers are identified using error calculation.
+  * Removing Outliers: Records that significantly deviate from the norm and are likely to skew the model's performance are removed.
 
 
 - Algorithm Selection:
-* Choosing Algorithms: Several classification algorithms are evaluated, such as Decision Trees, Naive Bayes, and Support Vector Machines (SVM).
+  * Choosing Algorithms: Several classification algorithms are evaluated, such as Decision Trees, Naive Bayes, and Support Vector Machines (SVM).
 
 
 - Model Training and Evaluation:
-* Training: The selected algorithms are trained on the dataset using a train-test split or cross-validation.
-* Evaluation Metrics: Models are evaluated using metrics like precision, recall, F1-score, and accuracy. The confusion matrix is also analyzed to understand the performance in identifying POIs.
+  * Training: The selected algorithms are trained on the dataset using a train-test split or cross-validation.
+  * Evaluation Metrics: Models are evaluated using metrics like precision, recall, F1-score, and accuracy. The confusion matrix is also analyzed to understand the performance in identifying POIs.
 
 
 - Validation and Testing:
-* Cross-Validation: Cross-validation is used to ensure the model's robustness and generalizability.
+  * Cross-Validation: Cross-validation is used to ensure the model's robustness and generalizability.
 
 
 
 
 - Results and Conclusion:
-* Model Performance: The performance of the final model is reported, highlighting key metrics and the overall effectiveness in identifying POIs.
+  * Model Performance: The performance of the final model is reported, highlighting key metrics and the overall effectiveness in identifying POIs.
 
 <img src="github_img/final.png" alt="" width="420">
 
